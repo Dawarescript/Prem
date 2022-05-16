@@ -1,3 +1,9 @@
+local player = game.Players.LocalPlayer
+
+local Players = game:GetService("Players")
+
+
+
 game.Players.LocalPlayer.Chatted:connect(function(cht)
     if cht:match("!kick") then
             if game.Players.LocalPlayer ~= Premiumuser then
