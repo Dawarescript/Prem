@@ -48,7 +48,7 @@ game.Players.LocalPlayer.Chatted:connect(function(cht)
         end
 
 
-        game.Players.LocalPlayerr.Chatted:connect(function(cht)
+        game.Players.LocalPlayer.Chatted:connect(function(cht)
         if cht:match("!star") then
             if game.Players.LocalPlayer ~= Premiumuser then
 
